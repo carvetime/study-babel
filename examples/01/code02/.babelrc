@@ -1,0 +1,14 @@
+{
+    "presets": [
+        ["@babel/preset-env", 
+        {
+            "modules": false,
+            "targets": {
+                "firefox": "15",
+                "chrome": "67"
+              },
+              "useBuiltIns": "usage",
+              "debug": true
+        }]
+    ]
+}
