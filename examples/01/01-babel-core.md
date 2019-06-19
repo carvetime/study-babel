@@ -18,6 +18,8 @@ tags:
 npm install @babel/core --save-dev
 ```
 
+<!-- more -->
+
 我们下简单看下`@bable/core`提供的几个核心方法
 
 index00.js
