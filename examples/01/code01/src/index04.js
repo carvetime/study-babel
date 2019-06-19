@@ -8,5 +8,9 @@ class Person {
     }
 }
 
+const demofunc4 = res => {
+    console.log("func 4")
+  }
+
 var p = new Person("xiao wang")
 p.sing()

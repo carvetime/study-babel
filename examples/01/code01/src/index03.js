@@ -1,9 +1,16 @@
-const demofunc3 = res => {
-    console.log("func 3")
+class Person {
+  constructor(name){
+      this.name = name
+  }
+
+  sing(){
+      console.log(this.name + 'is singing')
+  }
 }
 
-/*
-const demofunc3 = function (res) {
-  console.log("func 3");
-};
-*/
+const demofunc5 = res => {
+  console.log("func 5")
+}
+
+var p = new Person("xiao wang")
+p.sing()

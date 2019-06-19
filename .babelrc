@@ -1,2 +1,82 @@
+// {
+//     "presets": [
+//         ["@babel/preset-env",
+//             {
+//                 "targets": {
+//                   "firefox": "15"
+//                 }
+//               },
+              
+//         ]
+//     ],
+//     "plugins": [
+//       ["@babel/plugin-transform-runtime",{"corejs": 2}]
+//     ]
+// }
+
+
+// {
+//   "presets": [
+//       ["@babel/preset-env",
+//           {
+//               "targets": {
+//                 "firefox": "15"
+//               },
+//               "corejs": "2.0.0",
+//               "useBuiltIns": "usage"
+//             },
+            
+//       ]
+//   ]
+// }
+
+
+// {
+//   "presets": [
+//       ["@babel/preset-env",
+//           {
+//               "targets": {
+//                 "firefox": "15"
+//               },
+//               "corejs": 2,
+//               "useBuiltIns": "usage",
+//               "debug": true
+//             },
+            
+//       ]
+//   ]
+  
+// }
+
+
 {
+  "presets": [
+      ["@babel/preset-env",
+          {
+              "targets": {
+                "firefox": "15"
+              },
+              "useBuiltIns": "entry",
+              "debug": true
+            },
+            
+      ]
+  ]
+  
 }
+
+// {
+//   "presets": [
+//       ["@babel/preset-env",
+//           {
+//               "targets": {
+//                 "firefox": "15"
+//               },
+//             },
+            
+//       ]
+//   ],
+//   "plugins": [
+//     ["@babel/plugin-transform-runtime",{"corejs":2}]
+//   ]
+// }
