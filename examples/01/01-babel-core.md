@@ -645,3 +645,7 @@ __webpack_require__.r(__webpack_exports__);
 }
 ```
 然后`npx webpack`运行到高低版本浏览器上都可以正常显示
+
+思考问题：那我们平时应该是用@babel/plugin-transform-runtime 还是用useBuiltIns方法来引入ployfill呢?。
+
+[github代码](https://github.com/carvetime/study-babel)
